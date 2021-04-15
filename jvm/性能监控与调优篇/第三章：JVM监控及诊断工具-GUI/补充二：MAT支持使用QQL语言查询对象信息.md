@@ -1,7 +1,3 @@
----
-typora-copy-images-to: ..\..\..\images
----
-
 ### 支持使用OQL语言查询对象信息
 
 ## 1 SELECT子句
