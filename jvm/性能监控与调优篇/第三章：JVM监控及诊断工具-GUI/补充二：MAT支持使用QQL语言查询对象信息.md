@@ -2,19 +2,19 @@
 
 ## 1 SELECT子句
 
-![image-20210415143312655](C:\Users\93138\AppData\Roaming\Typora\typora-user-images\image-20210415143312655.png)
+![image-20210415143312655](https://github.com/MrL5z2k0/zkNode/tree/main/images\image-20210415143312655.png)
 
 ## 2 FROM子句
 
-![image-20210415143332606](C:\Users\93138\AppData\Roaming\Typora\typora-user-images\image-20210415143332606.png)
+![image-20210415143332606](https://github.com/MrL5z2k0/zkNode/tree/main/images\image-20210415143332606.png)
 
 ## 3 WHERE子句
 
-![image-20210415143350090](C:\Users\93138\AppData\Roaming\Typora\typora-user-images\image-20210415143350090.png)
+![image-20210415143350090](https://github.com/MrL5z2k0/zkNode/tree/main/images\image-20210415143350090.png)
 
 ## 4 内置对象与方法
 
-![image-20210415143416534](C:\Users\93138\AppData\Roaming\Typora\typora-user-images\image-20210415143416534.png)
+![image-20210415143416534](https://github.com/MrL5z2k0/zkNode/tree/main/images\image-20210415143416534.png)
 
 (Java Process Status)显示指定系统内所有的HotSpot虚拟机进程(查看虚拟机进程信息），可用于查询正在运行的虚拟机进程.
 
@@ -33,3 +33,5 @@
 补充:
 
 eperfdata如果某Java进程关闭了默认开启的UserPerfData参数（即使用参数-XX:-UsePerfdata),那么jps命令(以及下面介绍的jstat)将无法探知该Java进程。
+
+更多请查看：https://blog.csdn.net/unique_perfect/article/details/114488786及https://www.bilibili.com/video/BV1PJ411n7xZ?p=339&spm_id_from=pageDriver
