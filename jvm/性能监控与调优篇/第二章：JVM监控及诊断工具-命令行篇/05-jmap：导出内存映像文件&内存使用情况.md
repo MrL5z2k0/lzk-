@@ -7,9 +7,9 @@ jmap( JVM Memory Map):作用一方面是获取dump文件(堆转储快照文件�
 
 ## 基本语法
 
-![image-20210408221405254](C:\Users\93138\AppData\Roaming\Typora\typora-user-images\image-20210408221405254.png)
+![image-20210408221405254](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210408221405254.png)
 
-![image-20210408221518089](C:\Users\93138\AppData\Roaming\Typora\typora-user-images\image-20210408221518089.png)
+![image-20210408221518089](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210408221518089.png)
 
 
 
@@ -33,7 +33,7 @@ Heap Dump又叫做堆存储文件，指一个Java进程在某个时间点的内�
 1. 通常在写 Heap Dump文件前会触发一次Full GC,所以 heap dump文件里保存的都是Fu116C后留下的对象信息。
 2. 由于生成dump文件比较耗时，因此大家需要耐心等待，尤其是大内存镜像生成dump文件则需要耗费更长的时间来完成。
 
-![image-20210408222047920](C:\Users\93138\AppData\Roaming\Typora\typora-user-images\image-20210408222047920.png)
+![image-20210408222047920](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210408222047920.png)
 
 手动方式
 
@@ -52,6 +52,6 @@ Heap Dump又叫做堆存储文件，指一个Java进程在某个时间点的内�
 
 比如
 -Xmx100m -XX: +HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=D: \m.hprof
-![image-20210413135332116](C:\Users\93138\AppData\Roaming\Typora\typora-user-images\image-20210413135332116.png)
+![image-20210413135332116](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210413135332116.png)
 
-![image-20210413135341611](C:\Users\93138\AppData\Roaming\Typora\typora-user-images\image-20210413135341611.png)
+![image-20210413135341611](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210413135341611.png)

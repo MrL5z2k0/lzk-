@@ -16,4 +16,4 @@ jstack( JVM Stack Trace)：
 - 暂停， Suspended
   
 
-![image-20210413142004139](C:\Users\93138\AppData\Roaming\Typora\typora-user-images\image-20210413142004139.png)
+![image-20210413142004139](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210413142004139.png)

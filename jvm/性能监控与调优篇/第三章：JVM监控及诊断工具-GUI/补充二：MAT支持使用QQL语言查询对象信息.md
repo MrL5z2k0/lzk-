@@ -1,20 +1,24 @@
+---
+typora-copy-images-to: ..\..\..\images
+---
+
 ### 支持使用OQL语言查询对象信息
 
 ## 1 SELECT子句
 
-![image-20210415143312655](https://github.com/MrL5z2k0/zkNode/tree/main/images\image-20210415143312655.png)
+![image-20210415143312655](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210415143312655.png)
 
 ## 2 FROM子句
 
-![image-20210415143332606](https://github.com/MrL5z2k0/zkNode/tree/main/images\image-20210415143332606.png)
+![image-20210415143332606](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210415143332606.png)
 
 ## 3 WHERE子句
 
-![image-20210415143350090](https://github.com/MrL5z2k0/zkNode/tree/main/images\image-20210415143350090.png)
+![image-20210415143350090](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210415143350090.png)
 
 ## 4 内置对象与方法
 
-![image-20210415143416534](https://github.com/MrL5z2k0/zkNode/tree/main/images\image-20210415143416534.png)
+![image-20210415143416534](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210415143416534.png)
 
 (Java Process Status)显示指定系统内所有的HotSpot虚拟机进程(查看虚拟机进程信息），可用于查询正在运行的虚拟机进程.
 
