@@ -5,4 +5,4 @@
 命令 jstatd,是一个RMI服务端程序，它的作用相当于代理服务器，建立本地计算机与远程监控工具的通信。 jstatd服务器将本机的Java应用程序信息传递到远程计算机。
 
 
-![image-20210413143403645](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210413143403645.png)
+![image-20210413143403645](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210413143403645.png)

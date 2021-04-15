@@ -7,6 +7,6 @@
 jcmd拥有jmap的大部分功能，并且在Oracle的官方网站上也推荐使用jcmd命令代jmap命令。
 
 
-![image-20210413142216591](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210413142216591.png)
+![image-20210413142216591](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210413142216591.png)
 
-![image-20210413142950634](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210413142950634.png)
+![image-20210413142950634](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210413142950634.png)

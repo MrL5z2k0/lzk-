@@ -12,4 +12,4 @@ Sun JDK提供的jhat命令与jmap命令搭配使用，用于分析jmap生成的 
 说明:jhat命令在JDK9、JDK10中已经被删除，官方建议用 VisualVM代替。
 
 
-![image-20210413140309417](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210413140309417.png)
+![image-20210413140309417](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210413140309417.png)

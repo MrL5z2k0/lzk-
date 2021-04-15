@@ -7,7 +7,7 @@ jstat( JVM Statistics Monitoring TooL):用于监视虛拟机各种运行状态�
 
 ## 基本语法
 
-![image-20210408211203706](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210408211203706.png)
+![image-20210408211203706](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210408211203706.png)
 
 ### option参数
 

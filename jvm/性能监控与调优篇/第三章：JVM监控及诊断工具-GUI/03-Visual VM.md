@@ -2,17 +2,17 @@
 
 ## 基本概述 
 
-![image-20210413170508338](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210413170508338.png)
+![image-20210413170508338](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210413170508338.png)
 
 使用： 在jdk安装目录中找到jvisualvm.exe，然后双击执行即可 打开DOS窗口，输入jvisualvm就可以打开该软件。
 
 ## 插件的安装
 
-![image-20210413171821895](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210413171821895.png)
+![image-20210413171821895](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210413171821895.png)
 
-![image-20210413171844926](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210413171844926.png)
+![image-20210413171844926](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210413171844926.png)
 
-![image-20210413171900880](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210413171900880.png)
+![image-20210413171900880](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210413171900880.png)
 
 ## 连接方式
 
@@ -41,11 +41,11 @@
 
 1 方式1：
 
-![image-20210414100231323](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210414100231323.png)
+![image-20210414100231323](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210414100231323.png)
 
 2 方式2：
 
-![image-20210413184253900](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210413184253900.png)
+![image-20210413184253900](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210413184253900.png)
 
 注意： 生成堆内存快照如下图：
 
@@ -53,13 +53,13 @@
 
 这些快照存储在内存中，当线程停止的时候快照就会丢失，如果还想利用，可以将快照进行另存为操作，如下图：
 
-![image-20210414100330059](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210414100330059.png)
+![image-20210414100330059](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210414100330059.png)
 
 ##### 二 装入堆内存快照
 
-![image-20210414100449115](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210414100449115.png)
+![image-20210414100449115](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210414100449115.png)
 
-![image-20210414100521078](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210414100521078.png)
+![image-20210414100521078](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210414100521078.png)
 
 #### 2 查看JVM参数和系统属性
 
@@ -71,19 +71,19 @@
 
 1 方式1：
 
-![image-20210414100955271](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210414100955271.png)
+![image-20210414100955271](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210414100955271.png)
 
 2 方式2：  注意： 生成线程快照如下图：
 
-![image-20210413184509316](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210413184509316.png)
+![image-20210413184509316](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210413184509316.png)
 
 这些快照存储在内存中，当线程停止的时候快照就会丢失，如果还想利用，可以将快照进行另存为操作，如下图：
 
-![image-20210414101220238](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210414101220238.png)
+![image-20210414101220238](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210414101220238.png)
 
 #####  二 装入线程快照
 
-![image-20210414101151286](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210414101151286.png)
+![image-20210414101151286](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210414101151286.png)
 
 #### 5 程序资源的实时监控
 

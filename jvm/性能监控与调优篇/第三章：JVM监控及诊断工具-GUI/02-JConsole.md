@@ -1,6 +1,6 @@
 # 基本概述
 
-![image-20210413144549474](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210413144549474.png)
+![image-20210413144549474](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210413144549474.png)
 
 ## 启动
 
@@ -14,8 +14,8 @@ Local 使用JConsole连接一个正在本地系统运行的JVM，并且执行程
 
 注意：本地连接要求 启动jconsole的用户 和 运行当前程序的用户 是同一个用户  具体操作如下： 1 在DOS窗口中输入jconsole
 
-![image-20210413144928638](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210413144928638.png)
+![image-20210413144928638](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210413144928638.png)
 
-![image-20210413144851417](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210413144851417.png)
+![image-20210413144851417](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210413144851417.png)
 
-![image-20210413145011738](https://github.com/MrL5z2k0/zkNode/tree/main/images/image-20210413145011738.png)
+![image-20210413145011738](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210413145011738.png)
