@@ -36,7 +36,7 @@ AOF机制对每条写入命令作为日志，以append-only的模式写入一个
 
 如果同时使用RDB和AOF两种持久化机制，那么在redis重启的时候，会使用AOF来重新构建数据，因为AOF中的数据更加完整
 
-![image-20210416130131548](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210416130131548.png)
+![image-20210416130131548](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210416130131548.png)
 
 ## 2、RDB持久化机制的优点
 
@@ -78,6 +78,6 @@ AOF机制对每条写入命令作为日志，以append-only的模式写入一个
 
 （3）综合使用AOF和RDB两种持久化机制，用AOF来保证数据不丢失，作为数据恢复的第一选择; 用RDB来做不同程度的冷备，在AOF文件都丢失或损坏不可用的时候，还可以使用RDB来进行快速的数据恢复
 
-![image-20210416025805105](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210416025805105.png)
+![image-20210416025805105](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210416025805105.png)
 
-![image-20210416025822839](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210416025822839.png)
+![image-20210416025822839](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210416025822839.png)

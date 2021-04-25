@@ -17,7 +17,7 @@
 
 ### 2.1.2 多样的数据结构存储持久化数据
 
-![image-20210420160704394](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210420160704394.png)
+![image-20210420160704394](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210420160704394.png)
 
 ## 2.2 Redis安装
 
@@ -102,17 +102,17 @@ redis-server/myredis/redis.conf
 
 #### 2.2.5.6 测试验证： ping
 
-![image-20210420162150921](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210420162150921.png)
+![image-20210420162150921](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210420162150921.png)
 
 #### 2.2.5.7 redis-cli shutdown
 
 ps -ef|grep redis
 
-![image-20210420162251660](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210420162251660.png)
+![image-20210420162251660](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210420162251660.png)
 
 也可以进入终端后再关闭
 
-![image-20210420162323623](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210420162323623.png)
+![image-20210420162323623](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210420162323623.png)
 
 多实例关闭，指定端口关闭：redis-cli -p 6379 shutdown
 
@@ -130,4 +130,4 @@ Redis是单线程+多路IO复用技术
 
 （与Memcache三点不同: 支持多数据类型，支持持久化，单线程+多路IO复用）
 
-![image-20210420162456937](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210420162456937.png)
+![image-20210420162456937](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210420162456937.png)

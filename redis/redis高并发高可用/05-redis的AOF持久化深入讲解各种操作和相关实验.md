@@ -70,7 +70,7 @@ auto-aof-rewrite-min-size 64mb
 
 （5）用新的日志文件替换掉旧的日志文件
 
-![image-20210416130944330](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210416130944330.png)
+![image-20210416130944330](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210416130944330.png)
 
 ## 4、AOF破损文件的修复
 

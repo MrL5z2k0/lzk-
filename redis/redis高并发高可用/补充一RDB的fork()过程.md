@@ -70,11 +70,11 @@ Redis巧妙的运用了fork()。当bgsave执行时，Redis主进程会判断当�
 主进程fork()子进程之后，内核把主进程中所有的内存页的权限都设为read-only，然后子进程的地址空间指向主进程。这也就是共享了主进程的内存，当其中某个进程写内存时(这里肯定是主进程写，因为子进程只负责rdb文件持久化工作，不参与客户端的请求)，CPU硬件检测到内存页是read-only的，于是触发页异常中断（page-fault），陷入内核的一个中断例程。中断例程中，内核就会把触发的异常的页复制一份（这里仅仅复制异常页，也就是所修改的那个数据页，而不是内存中的全部数据），于是主子进程各自持有独立的一份。
 数据修改之前的样子
 
-![image-20210416140724802](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210416140724802.png)
+![image-20210416140724802](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210416140724802.png)
 
 *数据修改之后的样子*
 
-![image-20210416140811039](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210416140811039.png)
+![image-20210416140811039](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210416140811039.png)
 
 ### 2、回到原问题
 

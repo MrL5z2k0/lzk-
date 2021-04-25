@@ -20,11 +20,11 @@ Web1.0的时代，数据访问量很有限，用一夫当关的高性能的单�
 
 ### 1.1.3 解决CPU及内存压力
 
-![image-20210420151639716](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210420151639716.png)
+![image-20210420151639716](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210420151639716.png)
 
 ### 1.1.4 解决IO压力
 
-![image-20210420151741021](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210420151741021.png)
+![image-20210420151741021](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210420151741021.png)
 
 
 
@@ -78,11 +78,11 @@ NoSQL 不依赖业务逻辑方式存储，而以简单的key-value模式存储�
 
 ### 1.3.1 行式数据库
 
-![image-20210420155622699](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210420155622699.png)
+![image-20210420155622699](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210420155622699.png)
 
 ### 1.3.2 列式数据库
 
-![image-20210420155656135](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210420155656135.png)
+![image-20210420155656135](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210420155656135.png)
 
 #### 1.3.2.1 Hbase
 
@@ -124,7 +124,7 @@ Apache Cassandra是一款免费的开源NoSQL数据库，其设计目的在于�
 
 主要应用：社会关系，公共交通网络，地图及网络拓谱(n*(n-1)/2)
 
-![image-20210420155847058](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210420155847058.png)
+![image-20210420155847058](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210420155847058.png)
 
 ## 1.5 DB-Engines 数据库排名
 

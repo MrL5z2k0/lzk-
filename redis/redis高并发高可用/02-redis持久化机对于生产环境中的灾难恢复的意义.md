@@ -20,4 +20,4 @@ redis持久化的意义，在于故障恢复
 
 如果通过持久化将数据搞一份儿在磁盘上去，然后定期比如说同步和备份到一些云存储服务上去，那么就可以保证数据不丢失全部，还是可以恢复一部分数据回来的
 
-![image-20210416024700355](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210416024700355.png)
+![image-20210416024700355](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210416024700355.png)

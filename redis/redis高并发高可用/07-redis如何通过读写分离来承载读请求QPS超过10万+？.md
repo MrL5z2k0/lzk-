@@ -16,7 +16,7 @@ mysql，高并发，做到了，那么也是通过一系列复杂的分库分表
 
 单机
 
-![image-20210416202045371](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210416202045371.png)
+![image-20210416202045371](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210416202045371.png)
 
 ## 3、如果redis要支撑超过10万+的并发，那应该怎么做？
 
@@ -32,7 +32,7 @@ mysql，高并发，做到了，那么也是通过一系列复杂的分库分表
 
 主从架构 -> 读写分离 -> 支撑10万+读QPS的架构
 
-![image-20210416202124831](https://github.com/MrL5z2k0/zkNode/blog/main/images/image-20210416202124831.png)
+![image-20210416202124831](https://github.com/MrL5z2k0/zkNode/blob/main/images/image-20210416202124831.png)
 
 ## 4、接下来要讲解的一个topic
 
