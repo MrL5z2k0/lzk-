@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f637557-3eb2-4ffd-901d-4d8d99b8b307" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/AnnotationMainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/config/MainConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceCodeStudy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/MainTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/Public/maven/apache-maven-3.2.2/repository" />
+        <option name="mavenHome" value="$USER_HOME$/Public/maven/apache-maven-3.2.2" />
+        <option name="userSettingsFile" value="$USER_HOME$/Public/maven/apache-maven-3.2.2/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1uNN8bjh9tzb39Uv698y7VJBuKg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Application.AnnotationMainTest">
+    <configuration name="AnnotationMainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzk.spring.AnnotationMainTest" />
+      <module name="sourceCodeStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzk.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzk.spring.MainTest" />
+      <module name="sourceCodeStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzk.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AnnotationMainTest" />
+        <item itemvalue="Application.MainTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f637557-3eb2-4ffd-901d-4d8d99b8b307" name="Default Changelist" comment="" />
+      <created>1624501929195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624501929195</updated>
+      <workItem from="1624501943058" duration="2113000" />
+      <workItem from="1624932976245" duration="427000" />
+      <workItem from="1624951047731" duration="1180000" />
+      <workItem from="1624952243398" duration="275000" />
+      <workItem from="1625016938542" duration="697000" />
+      <workItem from="1625017676176" duration="22040000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="273" y="152" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624502092284">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="273" y="152" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.721@0.23.1280.721" timestamp="1624502092284" />
+    <state x="453" y="95" key="#com.intellij.ide.util.MemberChooser" timestamp="1625120941789">
+      <screen x="0" y="23" width="1280" height="724" />
+    </state>
+    <state x="453" y="95" key="#com.intellij.ide.util.MemberChooser/0.23.1280.724@0.23.1280.724" timestamp="1625120941789" />
+    <state width="1232" height="210" key="GridCell.Tab.0.bottom" timestamp="1625123265695">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1232" height="244" key="GridCell.Tab.0.bottom/0.23.1280.723@0.23.1280.723" timestamp="1625121099757" />
+    <state width="1232" height="210" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1625121337525" />
+    <state width="1232" height="210" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1625123265695" />
+    <state width="1232" height="210" key="GridCell.Tab.0.center" timestamp="1625123265694">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1232" height="244" key="GridCell.Tab.0.center/0.23.1280.723@0.23.1280.723" timestamp="1625121099756" />
+    <state width="1232" height="210" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1625121337524" />
+    <state width="1232" height="210" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1625123265694" />
+    <state width="1232" height="210" key="GridCell.Tab.0.left" timestamp="1625123265693">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1232" height="244" key="GridCell.Tab.0.left/0.23.1280.723@0.23.1280.723" timestamp="1625121099755" />
+    <state width="1232" height="210" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1625121337523" />
+    <state width="1232" height="210" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1625123265693" />
+    <state width="1232" height="210" key="GridCell.Tab.0.right" timestamp="1625123265694">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1232" height="244" key="GridCell.Tab.0.right/0.23.1280.723@0.23.1280.723" timestamp="1625121099757" />
+    <state width="1232" height="210" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1625121337524" />
+    <state width="1232" height="210" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1625123265694" />
+    <state width="1232" height="210" key="GridCell.Tab.1.bottom" timestamp="1625123265696">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1218" height="236" key="GridCell.Tab.1.bottom/0.23.1280.723@0.23.1280.723" timestamp="1625105816026" />
+    <state width="1232" height="210" key="GridCell.Tab.1.bottom/0.23.1280.724@0.23.1280.724" timestamp="1625121340161" />
+    <state width="1232" height="210" key="GridCell.Tab.1.bottom/0.23.1280.726@0.23.1280.726" timestamp="1625123265696" />
+    <state width="1232" height="210" key="GridCell.Tab.1.center" timestamp="1625123265695">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1218" height="236" key="GridCell.Tab.1.center/0.23.1280.723@0.23.1280.723" timestamp="1625105816026" />
+    <state width="1232" height="210" key="GridCell.Tab.1.center/0.23.1280.724@0.23.1280.724" timestamp="1625121340160" />
+    <state width="1232" height="210" key="GridCell.Tab.1.center/0.23.1280.726@0.23.1280.726" timestamp="1625123265695" />
+    <state width="1232" height="210" key="GridCell.Tab.1.left" timestamp="1625123265695">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1218" height="236" key="GridCell.Tab.1.left/0.23.1280.723@0.23.1280.723" timestamp="1625105816025" />
+    <state width="1232" height="210" key="GridCell.Tab.1.left/0.23.1280.724@0.23.1280.724" timestamp="1625121340159" />
+    <state width="1232" height="210" key="GridCell.Tab.1.left/0.23.1280.726@0.23.1280.726" timestamp="1625123265695" />
+    <state width="1232" height="210" key="GridCell.Tab.1.right" timestamp="1625123265696">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1218" height="236" key="GridCell.Tab.1.right/0.23.1280.723@0.23.1280.723" timestamp="1625105816026" />
+    <state width="1232" height="210" key="GridCell.Tab.1.right/0.23.1280.724@0.23.1280.724" timestamp="1625121340160" />
+    <state width="1232" height="210" key="GridCell.Tab.1.right/0.23.1280.726@0.23.1280.726" timestamp="1625123265696" />
+    <state x="0" y="23" key="SettingsEditor" timestamp="1625119651895">
+      <screen x="0" y="23" width="1280" height="724" />
+    </state>
+    <state x="0" y="23" key="SettingsEditor/0.23.1280.721@0.23.1280.721" timestamp="1625033307167" />
+    <state x="0" y="23" key="SettingsEditor/0.23.1280.724@0.23.1280.724" timestamp="1625119651895" />
+    <state x="0" y="23" key="SettingsEditor/0.23.1280.728@0.23.1280.728" timestamp="1624933024013" />
+    <state x="0" y="23" key="SettingsEditor/0.23.1280.729@0.23.1280.729" timestamp="1624951334659" />
+    <state x="0" y="23" key="SettingsEditor/0.23.1280.730@0.23.1280.730" timestamp="1624952468485" />
+    <state x="235" y="23" width="810" height="724" key="StructurePopup" timestamp="1625023603657">
+      <screen x="0" y="23" width="1280" height="724" />
+    </state>
+    <state x="235" y="23" width="810" height="724" key="StructurePopup/0.23.1280.724@0.23.1280.724" timestamp="1625023603657" />
+    <state x="0" y="24" width="1280" height="720" key="find.popup" timestamp="1625105470510">
+      <screen x="0" y="23" width="1280" height="723" />
+    </state>
+    <state x="0" y="24" width="1280" height="720" key="find.popup/0.23.1280.723@0.23.1280.723" timestamp="1625105470510" />
+    <state x="215" y="24" width="984" height="720" key="find.popup/0.23.1280.724@0.23.1280.724" timestamp="1625023521986" />
+    <state x="0" y="23" key="new project wizard" timestamp="1624951255646">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state x="0" y="23" key="new project wizard/0.23.1280.729@0.23.1280.729" timestamp="1624951255646" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/Person.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/Person.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
