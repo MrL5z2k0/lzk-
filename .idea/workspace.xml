@@ -19,14 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f637557-3eb2-4ffd-901d-4d8d99b8b307" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/AnnotationMainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/config/MainConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/resources/beans.xml" afterDir="false" />
+    <list default="true" id="17622393-5399-4949-acf2-1f1184014de4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/HelloFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zkNode/RedisCode/PhoneCode.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sourceCodeStudy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/AnnotationMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/AnnotationMainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceCodeStudy/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceCodeStudy/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/target/classes/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceCodeStudy/target/classes/com/lzk/spring/AnnotationMainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/target/classes/com/lzk/spring/AnnotationMainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceCodeStudy/target/classes/com/lzk/spring/bean/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/target/classes/com/lzk/spring/bean/Person.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +51,13 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="$USER_HOME$/Public/maven/apache-maven-3.2.2/repository" />
-        <option name="mavenHome" value="$USER_HOME$/Public/maven/apache-maven-3.2.2" />
-        <option name="userSettingsFile" value="$USER_HOME$/Public/maven/apache-maven-3.2.2/conf/settings.xml" />
+        <option name="localRepository" value="D:\Maven\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1uNN8bjh9tzb39Uv698y7VJBuKg" />
+  <component name="ProjectId" id="1rbd1NRCwPPHW79D3Dxmd2ENDVD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,15 +66,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.AnnotationMainTest">
+  <component name="RunManager" selected="Application.MainTest">
     <configuration name="AnnotationMainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lzk.spring.AnnotationMainTest" />
       <module name="sourceCodeStudy" />
@@ -96,10 +96,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PhoneCode (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lzk.PhoneCode" />
+      <module name="redisCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RedisCode.PhoneCode" />
+      <module name="zkNode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RedisCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redis_springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lzk.redis.RedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnnotationMainTest" />
         <item itemvalue="Application.MainTest" />
+        <item itemvalue="Application.AnnotationMainTest" />
+        <item itemvalue="Application.PhoneCode (1)" />
+        <item itemvalue="Application.PhoneCode" />
       </list>
     </recent_temporary>
   </component>
@@ -108,18 +143,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9f637557-3eb2-4ffd-901d-4d8d99b8b307" name="Default Changelist" comment="" />
-      <created>1624501929195</created>
+      <changelist id="17622393-5399-4949-acf2-1f1184014de4" name="Default Changelist" comment="" />
+      <created>1619248507052</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1624501929195</updated>
-      <workItem from="1624501943058" duration="2113000" />
-      <workItem from="1624932976245" duration="427000" />
-      <workItem from="1624951047731" duration="1180000" />
-      <workItem from="1624952243398" duration="275000" />
-      <workItem from="1625016938542" duration="697000" />
-      <workItem from="1625017676176" duration="22040000" />
+      <updated>1619248507052</updated>
+      <workItem from="1619248515496" duration="4692000" />
+      <workItem from="1619358228433" duration="150000" />
+      <workItem from="1624971184881" duration="1851000" />
+      <workItem from="1625376140789" duration="2605000" />
+      <workItem from="1625378786769" duration="4110000" />
     </task>
+    <task id="LOCAL-00001" summary="add my study">
+      <created>1624973585532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624973585533</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,97 +179,75 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add my study" />
+    <option name="LAST_COMMIT_MESSAGE" value="add my study" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="273" y="152" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624502092284">
-      <screen x="0" y="23" width="1280" height="721" />
+    <state x="574" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1625378461766">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="273" y="152" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.721@0.23.1280.721" timestamp="1624502092284" />
-    <state x="453" y="95" key="#com.intellij.ide.util.MemberChooser" timestamp="1625120941789">
-      <screen x="0" y="23" width="1280" height="724" />
+    <state x="574" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625378461766" />
+    <state x="372" y="4" key="CommitChangelistDialog2" timestamp="1624973584653">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="453" y="95" key="#com.intellij.ide.util.MemberChooser/0.23.1280.724@0.23.1280.724" timestamp="1625120941789" />
-    <state width="1232" height="210" key="GridCell.Tab.0.bottom" timestamp="1625123265695">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state x="372" y="4" key="CommitChangelistDialog2/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1624973584653" />
+    <state width="1493" height="267" key="GridCell.Tab.0.bottom" timestamp="1625390936931">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1232" height="244" key="GridCell.Tab.0.bottom/0.23.1280.723@0.23.1280.723" timestamp="1625121099757" />
-    <state width="1232" height="210" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1625121337525" />
-    <state width="1232" height="210" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1625123265695" />
-    <state width="1232" height="210" key="GridCell.Tab.0.center" timestamp="1625123265694">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state width="1493" height="267" key="GridCell.Tab.0.bottom/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625390936931" />
+    <state width="1493" height="267" key="GridCell.Tab.0.center" timestamp="1625390936931">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1232" height="244" key="GridCell.Tab.0.center/0.23.1280.723@0.23.1280.723" timestamp="1625121099756" />
-    <state width="1232" height="210" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1625121337524" />
-    <state width="1232" height="210" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1625123265694" />
-    <state width="1232" height="210" key="GridCell.Tab.0.left" timestamp="1625123265693">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state width="1493" height="267" key="GridCell.Tab.0.center/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625390936931" />
+    <state width="1493" height="267" key="GridCell.Tab.0.left" timestamp="1625390936931">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1232" height="244" key="GridCell.Tab.0.left/0.23.1280.723@0.23.1280.723" timestamp="1625121099755" />
-    <state width="1232" height="210" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1625121337523" />
-    <state width="1232" height="210" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1625123265693" />
-    <state width="1232" height="210" key="GridCell.Tab.0.right" timestamp="1625123265694">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state width="1493" height="267" key="GridCell.Tab.0.left/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625390936931" />
+    <state width="1493" height="267" key="GridCell.Tab.0.right" timestamp="1625390936931">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1232" height="244" key="GridCell.Tab.0.right/0.23.1280.723@0.23.1280.723" timestamp="1625121099757" />
-    <state width="1232" height="210" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1625121337524" />
-    <state width="1232" height="210" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1625123265694" />
-    <state width="1232" height="210" key="GridCell.Tab.1.bottom" timestamp="1625123265696">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state width="1493" height="267" key="GridCell.Tab.0.right/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625390936931" />
+    <state width="1493" height="267" key="GridCell.Tab.1.bottom" timestamp="1625390936932">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1218" height="236" key="GridCell.Tab.1.bottom/0.23.1280.723@0.23.1280.723" timestamp="1625105816026" />
-    <state width="1232" height="210" key="GridCell.Tab.1.bottom/0.23.1280.724@0.23.1280.724" timestamp="1625121340161" />
-    <state width="1232" height="210" key="GridCell.Tab.1.bottom/0.23.1280.726@0.23.1280.726" timestamp="1625123265696" />
-    <state width="1232" height="210" key="GridCell.Tab.1.center" timestamp="1625123265695">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state width="1493" height="267" key="GridCell.Tab.1.bottom/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625390936932" />
+    <state width="1493" height="267" key="GridCell.Tab.1.center" timestamp="1625390936931">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1218" height="236" key="GridCell.Tab.1.center/0.23.1280.723@0.23.1280.723" timestamp="1625105816026" />
-    <state width="1232" height="210" key="GridCell.Tab.1.center/0.23.1280.724@0.23.1280.724" timestamp="1625121340160" />
-    <state width="1232" height="210" key="GridCell.Tab.1.center/0.23.1280.726@0.23.1280.726" timestamp="1625123265695" />
-    <state width="1232" height="210" key="GridCell.Tab.1.left" timestamp="1625123265695">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state width="1493" height="267" key="GridCell.Tab.1.center/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625390936931" />
+    <state width="1493" height="267" key="GridCell.Tab.1.left" timestamp="1625390936931">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1218" height="236" key="GridCell.Tab.1.left/0.23.1280.723@0.23.1280.723" timestamp="1625105816025" />
-    <state width="1232" height="210" key="GridCell.Tab.1.left/0.23.1280.724@0.23.1280.724" timestamp="1625121340159" />
-    <state width="1232" height="210" key="GridCell.Tab.1.left/0.23.1280.726@0.23.1280.726" timestamp="1625123265695" />
-    <state width="1232" height="210" key="GridCell.Tab.1.right" timestamp="1625123265696">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state width="1493" height="267" key="GridCell.Tab.1.left/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625390936931" />
+    <state width="1493" height="267" key="GridCell.Tab.1.right" timestamp="1625390936931">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1218" height="236" key="GridCell.Tab.1.right/0.23.1280.723@0.23.1280.723" timestamp="1625105816026" />
-    <state width="1232" height="210" key="GridCell.Tab.1.right/0.23.1280.724@0.23.1280.724" timestamp="1625121340160" />
-    <state width="1232" height="210" key="GridCell.Tab.1.right/0.23.1280.726@0.23.1280.726" timestamp="1625123265696" />
-    <state x="0" y="23" key="SettingsEditor" timestamp="1625119651895">
-      <screen x="0" y="23" width="1280" height="724" />
+    <state width="1493" height="267" key="GridCell.Tab.1.right/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625390936931" />
+    <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1625378808049">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="0" y="23" key="SettingsEditor/0.23.1280.721@0.23.1280.721" timestamp="1625033307167" />
-    <state x="0" y="23" key="SettingsEditor/0.23.1280.724@0.23.1280.724" timestamp="1625119651895" />
-    <state x="0" y="23" key="SettingsEditor/0.23.1280.728@0.23.1280.728" timestamp="1624933024013" />
-    <state x="0" y="23" key="SettingsEditor/0.23.1280.729@0.23.1280.729" timestamp="1624951334659" />
-    <state x="0" y="23" key="SettingsEditor/0.23.1280.730@0.23.1280.730" timestamp="1624952468485" />
-    <state x="235" y="23" width="810" height="724" key="StructurePopup" timestamp="1625023603657">
-      <screen x="0" y="23" width="1280" height="724" />
+    <state x="299" y="87" key="Maven.ArtifactSearchDialog/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625378808049" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1624973715441">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="235" y="23" width="810" height="724" key="StructurePopup/0.23.1280.724@0.23.1280.724" timestamp="1625023603657" />
-    <state x="0" y="24" width="1280" height="720" key="find.popup" timestamp="1625105470510">
-      <screen x="0" y="23" width="1280" height="723" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1624973715441" />
+    <state x="401" y="93" key="new project wizard" timestamp="1624972871210">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="0" y="24" width="1280" height="720" key="find.popup/0.23.1280.723@0.23.1280.723" timestamp="1625105470510" />
-    <state x="215" y="24" width="984" height="720" key="find.popup/0.23.1280.724@0.23.1280.724" timestamp="1625023521986" />
-    <state x="0" y="23" key="new project wizard" timestamp="1624951255646">
-      <screen x="0" y="23" width="1280" height="729" />
+    <state x="401" y="93" key="new project wizard/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1624972871210" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1625382160919">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="0" y="23" key="new project wizard/0.23.1280.729@0.23.1280.729" timestamp="1624951255646" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625382160919" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/Person.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/Person.java</url>
-          <line>86</line>
-          <option name="timeStamp" value="11" />
+          <line>66</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -62,7 +62,7 @@ public class Person implements ApplicationContextAware, MessageSourceAware{
 
 
 
-    //@Autowired  //去发现一下.....
+    @Autowired  //去发现一下.....
     public void setCat(Cat cat) {
         this.cat = cat;
     }

@@ -4,7 +4,7 @@ import com.lzk.spring.bean.Person;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * @author lzk
+ * @author lzkF
  * @create 2021-06-29 21:28
  */
 public class MainTest {

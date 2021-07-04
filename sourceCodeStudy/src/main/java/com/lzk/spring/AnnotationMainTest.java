@@ -1,13 +1,10 @@
 package com.lzk.spring;
 
-import com.lzk.spring.bean.Cat;
 import com.lzk.spring.bean.Person;
 import com.lzk.spring.config.MainConfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import java.text.Format;
 
 /**
  * @author kasuo

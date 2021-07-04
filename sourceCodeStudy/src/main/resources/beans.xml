@@ -15,7 +15,7 @@
     </bean>
 
 
-<!--    <bean class="com.lzk.spring.bean.HelloFactory" id="hello" />-->
+    <bean class="com.lzk.spring.bean.HelloFactory" id="hello" />
 <!--    &lt;!&ndash;	xml  转为 BeanDefinition 这个java对象&ndash;&gt;-->
 
 <!--    &lt;!&ndash;	<import resource=""&ndash;&gt;-->
