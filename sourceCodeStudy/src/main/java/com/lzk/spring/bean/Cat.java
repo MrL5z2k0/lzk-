@@ -11,21 +11,21 @@ import org.springframework.stereotype.Component;
  * @author kasuo
  * @date 2021/6/30 9:50 上午
  */
-@Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+//@Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 /**容器就应该给Cat再创建一个对象*/
 @Component
 public class Cat{
 
     public Cat(){
-        //System.out.println("cat被创建了...");
+        System.out.println("cat被创建了...");
     }
 
     private String name;
 
 
-    //@Value("${JAVA_HOME}") //自动赋值功能
+    @Value("${JAVA_HOME}") //自动赋值功能
     public void setName(String name) {
-        //System.out.println("cat....setName正在赋值调用....");
+        System.out.println("cat....setName正在赋值调用....");
         this.name = name;
     }
     //注解怎么定义这个是初始化方法？

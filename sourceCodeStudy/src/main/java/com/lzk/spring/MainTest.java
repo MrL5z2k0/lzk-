@@ -8,7 +8,14 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * @create 2021-06-29 21:28
  */
 public class MainTest {
+
     public static void main(String[] args) {
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("beans2.xml");
+        Person bean = context.getBean(Person.class);
+        System.out.println(bean);
+    }
+
+    public static void test1(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
         Person bean = context.getBean(Person.class);
         System.out.println(bean);

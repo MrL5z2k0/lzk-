@@ -42,11 +42,11 @@ public class AnnotationMainTest {
 		//System.out.println(cat1 == cat);
 		//System.out.println(cat1);
 
-		Person bean = applicationContext.getBean(Person.class);
-
-		ApplicationContext context = bean.getContext();
-
-		System.out.println(context == applicationContext);
+		//Person bean = applicationContext.getBean(Person.class);
+		//
+		//ApplicationContext context = bean.getContext();
+		//
+		//System.out.println(context == applicationContext);
 
 
 

@@ -20,18 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17622393-5399-4949-acf2-1f1184014de4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/HelloFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyBeanPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/zkNode/RedisCode/PhoneCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceCodeStudy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyInitializingBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyInstantiationAwareBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyMergedBeanDefinitionPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MySmartInstantiationAwareBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/factory/MyBeanDefinitionRegistryPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/factory/MyBeanFactoryPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/resources/beans2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/AnnotationMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/AnnotationMainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceCodeStudy/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sourceCodeStudy/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/target/classes/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/config/MainConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/config/MainConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyBeanPostProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sourceCodeStudy/target/classes/com/lzk/spring/AnnotationMainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/target/classes/com/lzk/spring/AnnotationMainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceCodeStudy/target/classes/com/lzk/spring/bean/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/target/classes/com/lzk/spring/bean/Cat.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sourceCodeStudy/target/classes/com/lzk/spring/bean/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/target/classes/com/lzk/spring/bean/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceCodeStudy/target/classes/com/lzk/spring/config/MainConfig$MyImportRegistrar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceCodeStudy/target/classes/com/lzk/spring/config/MainConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/sourceCodeStudy/target/classes/com/lzk/spring/config/MainConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,46 +190,55 @@
     <option name="LAST_COMMIT_MESSAGE" value="add my study" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1625378461766">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="478" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1625477890429">
+      <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state x="574" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625378461766" />
+    <state x="478" y="139" key="#com.intellij.ide.util.MemberChooser/0.23.1280.727@0.23.1280.727" timestamp="1625477890429" />
     <state x="372" y="4" key="CommitChangelistDialog2" timestamp="1624973584653">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="372" y="4" key="CommitChangelistDialog2/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1624973584653" />
-    <state width="1493" height="267" key="GridCell.Tab.0.bottom" timestamp="1625390936931">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1232" height="208" key="GridCell.Tab.0.bottom" timestamp="1625478357844">
+      <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state width="1493" height="267" key="GridCell.Tab.0.bottom/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625390936931" />
-    <state width="1493" height="267" key="GridCell.Tab.0.center" timestamp="1625390936931">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1232" height="208" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1625478357844" />
+    <state width="1232" height="208" key="GridCell.Tab.0.center" timestamp="1625478357844">
+      <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state width="1493" height="267" key="GridCell.Tab.0.center/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625390936931" />
-    <state width="1493" height="267" key="GridCell.Tab.0.left" timestamp="1625390936931">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1232" height="208" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1625478357844" />
+    <state width="1232" height="208" key="GridCell.Tab.0.left" timestamp="1625478357843">
+      <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state width="1493" height="267" key="GridCell.Tab.0.left/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625390936931" />
-    <state width="1493" height="267" key="GridCell.Tab.0.right" timestamp="1625390936931">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1232" height="208" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1625478357843" />
+    <state width="1232" height="208" key="GridCell.Tab.0.right" timestamp="1625478357844">
+      <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state width="1493" height="267" key="GridCell.Tab.0.right/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625390936931" />
-    <state width="1493" height="267" key="GridCell.Tab.1.bottom" timestamp="1625390936932">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1232" height="208" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1625478357844" />
+    <state width="1232" height="208" key="GridCell.Tab.1.bottom" timestamp="1625478357845">
+      <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state width="1493" height="267" key="GridCell.Tab.1.bottom/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625390936932" />
-    <state width="1493" height="267" key="GridCell.Tab.1.center" timestamp="1625390936931">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1232" height="208" key="GridCell.Tab.1.bottom/0.23.1280.726@0.23.1280.726" timestamp="1625478357845" />
+    <state width="1232" height="208" key="GridCell.Tab.1.center" timestamp="1625478357845">
+      <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state width="1493" height="267" key="GridCell.Tab.1.center/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625390936931" />
-    <state width="1493" height="267" key="GridCell.Tab.1.left" timestamp="1625390936931">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1232" height="208" key="GridCell.Tab.1.center/0.23.1280.726@0.23.1280.726" timestamp="1625478357845" />
+    <state width="1232" height="208" key="GridCell.Tab.1.left" timestamp="1625478357844">
+      <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state width="1493" height="267" key="GridCell.Tab.1.left/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625390936931" />
-    <state width="1493" height="267" key="GridCell.Tab.1.right" timestamp="1625390936931">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1232" height="208" key="GridCell.Tab.1.left/0.23.1280.726@0.23.1280.726" timestamp="1625478357844" />
+    <state width="1232" height="208" key="GridCell.Tab.1.right" timestamp="1625478357845">
+      <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state width="1493" height="267" key="GridCell.Tab.1.right/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1625390936931" />
+    <state width="1232" height="208" key="GridCell.Tab.1.right/0.23.1280.726@0.23.1280.726" timestamp="1625478357845" />
     <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1625378808049">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -248,6 +263,126 @@
           <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/Person.java</url>
           <line>66</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/bean/Cat.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyBeanPostProcessor.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyBeanPostProcessor.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyBeanPostProcessor.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyInstantiationAwareBeanPostProcessor.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyInstantiationAwareBeanPostProcessor.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyInitializingBean.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyInitializingBean.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyInstantiationAwareBeanPostProcessor.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyInstantiationAwareBeanPostProcessor.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyMergedBeanDefinitionPostProcessor.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyMergedBeanDefinitionPostProcessor.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyMergedBeanDefinitionPostProcessor.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyMergedBeanDefinitionPostProcessor.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MyMergedBeanDefinitionPostProcessor.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MySmartInstantiationAwareBeanPostProcessor.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MySmartInstantiationAwareBeanPostProcessor.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MySmartInstantiationAwareBeanPostProcessor.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/bean/MySmartInstantiationAwareBeanPostProcessor.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/factory/MyBeanDefinitionRegistryPostProcessor.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/factory/MyBeanDefinitionRegistryPostProcessor.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/factory/MyBeanDefinitionRegistryPostProcessor.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/factory/MyBeanFactoryPostProcessor.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sourceCodeStudy/src/main/java/com/lzk/spring/processor/factory/MyBeanFactoryPostProcessor.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

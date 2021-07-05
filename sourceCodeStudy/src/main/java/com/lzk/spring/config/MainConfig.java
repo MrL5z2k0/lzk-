@@ -17,12 +17,18 @@ import org.springframework.core.type.AnnotationMetadata;
 @Configuration
 public class MainConfig {
 
-    //@Bean()
-	public Person person(){
-		Person person = new Person();
-		person.setName("李四");
-		return person;
+	public MainConfig(){
+		System.out.println("MainConfig...创建了....");
+//		applicationEventPublisher.publishEvent();
 	}
+
+
+	//@Bean()
+	//public Person person(){
+	//	Person person = new Person();
+	//	person.setName("李四");
+	//	return person;
+	//}
 
 	/**
 	 * 		BeanDefinitionRegistry：Bean定义信息注册中心：图纸中心;
@@ -35,30 +41,32 @@ public class MainConfig {
 	 * 	RootBeanDefinition
 	 *
 	 */
-	static class MyImportRegistrar implements ImportBeanDefinitionRegistrar {
-		@Override
-		public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata,
-											BeanDefinitionRegistry registry) {
-
-
-//			Enhancer enhancer = new Enhancer();
-//			enhancer.setCallbacks(new MethodInterceptor(){
+//	static class MyImportRegistrar implements ImportBeanDefinitionRegistrar {
+//		@Override
+//		public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata,
+//											BeanDefinitionRegistry registry) {
 //
-//				@Override
-//				public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
-//					return null;
-//				}
-//			});
-//			enhancer.setSuperclass(HelloService.class);
-			// BeanDefinition
-			RootBeanDefinition catDefinition = new RootBeanDefinition();
-			catDefinition.setBeanClass(Cat.class);
-//			catDefinition.setInitMethodName("aaa");
-			//可以声明定义信息，包括我需要自动装配什么？
-//			catDefinition.setInstanceSupplier(()-> new Cat());
-			//Spring 这个实例的类型，名字
-			registry.registerBeanDefinition("tomCat",catDefinition);
-		}
-	}
+//
+////			Enhancer enhancer = new Enhancer();
+////			enhancer.setCallbacks(new MethodInterceptor(){
+////
+////				@Override
+////				public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
+////					return null;
+////				}
+////			});
+////			enhancer.setSuperclass(HelloService.class);
+//			// BeanDefinition
+//			RootBeanDefinition catDefinition = new RootBeanDefinition();
+//			catDefinition.setBeanClass(Cat.class);
+////			catDefinition.setInitMethodName("aaa");
+//			//可以声明定义信息，包括我需要自动装配什么？
+////			catDefinition.setInstanceSupplier(()-> new Cat());
+//			//Spring 这个实例的类型，名字
+//			registry.registerBeanDefinition("tomCat",catDefinition);
+//		}
+//	}
+
+
 
 }
